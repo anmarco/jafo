@@ -1,6 +1,6 @@
 {
   "name": "jafo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just a folder organizer",
   "bin": "bin/index.js",
   "keywords": [

@@ -1,5 +1,5 @@
-# Archivator
-CLI tool to organize files inside a folder
+# JAFO
+Just a folder organizer CLI tool to organize files inside a folder
 
 ## Installation
 
@@ -8,17 +8,17 @@ CLI tool to organize files inside a folder
 ## Usage
 
 For default configs
-`archivator -p .`
+`jafo -p .`
 
 for custom configs
-`archivator -c <path-to-config.yaml>`
+`jafo -c <path-to-config.yaml>`
 
 ## Custom config file
 
 Custom config files should be written in YAML, using the following schema
 
 ```yaml
-path: ~/folder/to/vaccum
+path: /folder/to/organize
 folder:
   - name: vids
     formats: ['mp4', 'avi', 'wmv', 'mkv', 'webm', 'mov']
