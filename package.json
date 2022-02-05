@@ -8,6 +8,9 @@
     "management",
     "cleaning"
   ],
+  "repository": "anmarco/jafo",
+  "main": "bin/index.js",
+  "preferGlobal": true,
   "author": "André Marco Pereira",
   "license": "MIT",
   "dependencies": {
